@@ -11,5 +11,8 @@ package quarcoo;
             cd cdNew = new cd(" Pop", "Michael Jackson", "Thriller", "cd987", "Micheal Jackson", 80);
             cdNew.cdName();
 
+            audiobooks audioNew = new audiobooks("Religion" ,"Joyce Mayer", "Battlefiled of the mind", "au1928");
+            audioNew.audioRating();
+
         }
     }

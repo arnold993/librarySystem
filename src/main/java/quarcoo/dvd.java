@@ -1,15 +1,20 @@
 package quarcoo;
 
 public class dvd extends disks {
-    private float lengthDvd;
+    private float dvdLength;
+    private String producer;
 
     public dvd(String genre, String author, String title, String ISP, String producer, float lengthDvd) {
         super(genre, author, title, ISP, producer);
-        this.lengthDvd = lengthDvd;
+        this.dvdLength = lengthDvd;
     }
 
-    public void dvdLength() {
-        System.out.println("The dvd " + getTitle() + " is " + lengthDvd + " hours long");
+    public float dvdLength() {
+        return dvdLength;
+    }
+
+    public String producer() {
+        return producer;
     }
 
 
