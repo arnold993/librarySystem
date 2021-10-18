@@ -9,7 +9,7 @@ public class bookTest {
     @Test
     public void testBooksAuthorMethod(){
         Books bookAuthor = new Books ( "Action", "J. K. Rowling", "Harry Potter","bk1234", 180);
-        assertEquals("Wrong ISP number", "J. K. Rowling", bookAuthor.getAuthor());
+        assertEquals("Wrong author", "J. K. Rowling", bookAuthor.getAuthor());
     }
 
     @Test
